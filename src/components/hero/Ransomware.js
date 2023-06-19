@@ -59,7 +59,7 @@ const StyledModal = styled(ReactModalAdapter)`
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
-  heading = "What is Randsomware",
+  heading = "What is Ransomware",
  description="Ransomware is  a type of malicious software (malware)which can infect your devices.",
   primaryButtonText="Get Started",
   primaryButtonUrl="#",

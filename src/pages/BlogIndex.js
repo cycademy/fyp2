@@ -129,7 +129,7 @@ const whatIsRansomware = () => ({
     "https://file.rendit.io/n/jLjkk58zvPAtYpx9hq97.png",
   category: "Ransomware",
   date: "13 June 2023",
-  title: " What is Randsomware?",
+  title: " What is Ransomware?",
   description:
     "Discover what is Ransomware and how you can protect yourself from Ransomware!",
   url: "/components/innerPages/TopicPage2"
