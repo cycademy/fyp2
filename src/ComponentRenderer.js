@@ -97,8 +97,9 @@ import FiveColumnWithInputFormFooter from "components/footers/FiveColumnWithInpu
 import FiveColumnWithBackgroundFooter from "components/footers/FiveColumnWithBackground.js";
 import FiveColumnDarkFooter from "components/footers/FiveColumnDark.js";
 import MiniCenteredFooter from "components/footers/MiniCenteredFooter.js";
-import TopicPage2 from "pages/TopicPage2";
-
+import Ransomware2 from "pages/Ransomware2";
+import SettingPassphrases from "pages/SettingPassphrases";
+import ProtectingBusinessEmployee from "pages/ProtectingBusinessEmployee";
 export const components = {
 	landingPages: {
 		RestaurantLandingPage: {
@@ -172,12 +173,21 @@ export const components = {
 			imageSrc: BlogIndexPageImageSrc,
 		},
 
-		TopicPage2: {
-			component: TopicPage2,
-			url: `/components/innerPages/TopicPage2`,
+		SettingPassphrases:{
+			component: SettingPassphrases,
+			url:`/components/innerPages/SettingPassphrases`,
+			imageSrc: BlogIndexPageImageSrc,
+		},
+		Ransomware2: {
+			component: Ransomware2,
+			url: `/components/innerPages/Ransomware2`,
 			imageSrc: TermsOfServicePageImageSrc,
 		},
-
+		ProtectingBusinessEmployee: {
+			component: ProtectingBusinessEmployee,
+			url: `/components/innerPages/ProtectingBusinessEmployee`,
+			imageSrc: TermsOfServicePageImageSrc,
+		},
 		TermsOfServicePage: {
 			component: TermsOfServicePage,
 			url: `/components/innerPages/TermsOfServicePage`,

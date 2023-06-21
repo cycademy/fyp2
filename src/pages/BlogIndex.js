@@ -132,7 +132,7 @@ const whatIsRansomware = () => ({
   title: " What is Ransomware?",
   description:
     "Discover what is Ransomware and how you can protect yourself from Ransomware!",
-  url: "/components/innerPages/TopicPage2"
+  url: "/components/innerPages/Ransomware2"
 });
 
   const ProtectingBiz = () => ({
@@ -142,7 +142,7 @@ const whatIsRansomware = () => ({
     date: "13 June 2023",
     title: "Protecting your business and Employees",
     description: "Your business and employees are vulnerable to cyber attacks from criminals who can strike at any moment. Discover ways to enhance the cybersecurity of your business and employees.",
-    url: "https://reddit.com"
+    url: "/components/innerPages/ProtectingBusinessEmployee"
   
   });
 
@@ -154,7 +154,7 @@ const whatIsRansomware = () => ({
     date: "13 June 2023",
     title: "Setting Secure Passphrases",
     description: "Changing your passwords to a passphrase is a great way to improve your cybersecurity.",
-    url: "https://reddit.com"
+    url: "/components/innerPages/SettingPassphrases"
   
   });
 
