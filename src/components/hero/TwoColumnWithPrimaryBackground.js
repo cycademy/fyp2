@@ -43,7 +43,7 @@ export default ({
 
   
  
-  
+  title = "COMING SOON",
   heading = "Empowering Businesses Through Cybersecurity Education",
   description = "Welcome to Cyacademy, the free e-learning platform designed specifically for small to medium businesses to  have a comprehensive understanding of cybersecurity.",
   primaryButtonText = "Sign Up now",
@@ -80,6 +80,8 @@ export default ({
           <ContentWithVerticalPadding>
             <Row>
               <TextColumn>
+                <Heading>{title}</Heading>
+                <br/>
                 <Heading>{heading}</Heading>
                 <Description>{description}</Description>
                 <PrimaryButton as="a" href={`/components/innerPages/SignupPage`}>{primaryButtonText}</PrimaryButton>
@@ -94,3 +96,4 @@ export default ({
     </PrimaryBackgroundContainer>
   );
 };
+
